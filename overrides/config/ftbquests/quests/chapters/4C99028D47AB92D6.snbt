@@ -1,0 +1,158 @@
+{
+	id: "4C99028D47AB92D6"
+	group: "6F9C6DBBF1CFA7DF"
+	order_index: 1
+	filename: "4C99028D47AB92D6"
+	title: "热力系列"
+	icon: "thermal:iron_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:stone_button"
+			x: 0.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: ["在这里，你将可以了解到关于热力系列的玩法与教程。"]
+			size: 3.0d
+			id: "7DDC1E592607B0F3"
+			tasks: [{
+				id: "0D26289B2C79E943"
+				type: "checkmark"
+				title: "开始"
+			}]
+		}
+		{
+			title: "热力4矿"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["7DDC1E592607B0F3"]
+			id: "6869B547DCE7B882"
+			tasks: [
+				{
+					id: "778CEE62A824C176"
+					type: "item"
+					item: "thermal:cinnabar"
+				}
+				{
+					id: "5383543ED279A758"
+					type: "item"
+					item: "thermal:apatite"
+				}
+				{
+					id: "3669C6816C500309"
+					type: "item"
+					item: "thermal:niter"
+				}
+				{
+					id: "0F685246B0EB5B6C"
+					type: "item"
+					item: "thermal:sulfur"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["7DDC1E592607B0F3"]
+			id: "417CD5D8E1579A1B"
+			tasks: [{
+				id: "0DC123D876A31426"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			dependencies: ["417CD5D8E1579A1B"]
+			id: "4026DC98ABE3226D"
+			tasks: [{
+				id: "3A09573153FB44E6"
+				type: "item"
+				item: "thermal:device_hive_extractor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["417CD5D8E1579A1B"]
+			id: "74ECF64BCCFD54EB"
+			tasks: [{
+				id: "4352081809CFDBA7"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.0d
+			dependencies: ["417CD5D8E1579A1B"]
+			id: "5F76D9A5AC6562E9"
+			tasks: [{
+				id: "30B33469BB378F8D"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["6869B547DCE7B882"]
+			id: "23F865F229AAB1B3"
+			tasks: [{
+				id: "6E663CBF5FF10C09"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["23F865F229AAB1B3"]
+			id: "3CADB9D66C7A8174"
+			tasks: [{
+				id: "0ED1652217D12381"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["417CD5D8E1579A1B"]
+			id: "515224D140B477F9"
+			tasks: [{
+				id: "511AD2A3A17F8EF4"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: [
+				"6BAFCA737D01C0C7"
+				"417CD5D8E1579A1B"
+			]
+			id: "59994A58E7B8B882"
+			tasks: [{
+				id: "3F2650E30AF04115"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: ["7DDC1E592607B0F3"]
+			id: "6BAFCA737D01C0C7"
+			tasks: [{
+				id: "1CFACA5157CAA378"
+				type: "item"
+				item: "thermal:invar_ingot"
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
   "name": "暗耀之光模组端",
-  "author": "暗耀之光 团队",
-  "version": "b2.1",
+  "author": "暗耀之光团队",
+  "version": "- empty -",
   "description": "",
   "fileApi": "https://raw.fastgit.org/Hifei1007/GuangziteamModpack/main",
   "files": [
@@ -183,7 +183,11 @@
     },
     {
       "path": "config/ftbquests/quests/chapters/49A7DA34793CD34C.snbt",
-      "hash": "a77c6de9ba6cff32d833e68929d0a5c4f1dca97c"
+      "hash": "16e9cb76a2c7e77fdc086695898c57ae96287bfa"
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/4C99028D47AB92D6.snbt",
+      "hash": "04856f4199b83e5e981bc22fad0cc5ffc2fdbdf8"
     },
     {
       "path": "config/ftbquests/quests/chapter_groups.snbt",
@@ -2615,7 +2619,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "hash": "63cab87b67e9c2be65fd285ea4c8f71e20413cf9"
+      "hash": "c712d396f11ea76b66e5a4dabc716bf65d17955d"
     },
     {
       "path": "config/origins.toml",
@@ -2767,7 +2771,7 @@
     },
     {
       "path": "config/xaerominimap_entities.json",
-      "hash": "a2095772d197f694182513badc3df12c4869c67c"
+      "hash": "9efe632dc2473bfdcab2fad76be5a9800ae75049"
     },
     {
       "path": "config/xaeropatreon.txt",
@@ -2856,6 +2860,10 @@
     {
       "path": "kubejs/exported/tags/tile_entity_types.txt",
       "hash": "b52731ba077b481e61da459bc9b8cc3a0cebb22b"
+    },
+    {
+      "path": "kubejs/README.txt",
+      "hash": "0e8802b4f459b4918dcdd5a38aa4f28ace7c275d"
     },
     {
       "path": "kubejs/server_scripts/recipes/ironjetpacks.js",
