@@ -1,0 +1,16 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "twilightforest:guide": {
+      "viewedEntries": [
+        "twilightforest:world/portal"
+      ],
+      "bookmarks": [],
+      "history": [
+        "twilightforest:world/portal"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
