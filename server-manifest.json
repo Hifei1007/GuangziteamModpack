@@ -1,9 +1,9 @@
 {
   "name": "暗耀之光模组端",
   "author": "暗耀之光团队",
-  "version": "- empty -",
+  "version": "b2.1",
   "description": "",
-  "fileApi": "https://raw.fastgit.org/Hifei1007/GuangziteamModpack/main",
+  "fileApi": "https://raw.githubusercontent.com/Hifei1007/GuangziteamModpack/main",
   "files": [
     {
       "path": "config/aoa3/client_config.toml",
