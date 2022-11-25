@@ -1,9 +1,9 @@
 {
   "name": "暗耀之光模组端",
-  "author": "暗耀之光团队",
-  "version": "1.0",
-  "description": "自动更新版本",
-  "fileApi": "https://raw.githubusercontent.com/Hifei1007/GuangziteamModpack/main",
+  "author": "暗耀之光 团队",
+  "version": "b2.1",
+  "description": "",
+  "fileApi": "https://gitee.com/hifeicoding/GuangzitemModpack/raw/master",
   "files": [
     {
       "path": "config/aoa3/client_config.toml",
@@ -3208,82 +3208,6 @@
     {
       "path": "mods/Xaeros_Minimap_22.13.2_Forge_1.16.5.jar",
       "hash": "0fb970bee0ee2f3a6809b018c13e42c376e0414c"
-    },
-    {
-      "path": "natives-windows-x86_64/glfw.dll",
-      "hash": "9d95a8f52cbd48ab87937714eb4fd2129ed10f0a"
-    },
-    {
-      "path": "natives-windows-x86_64/glfw32.dll",
-      "hash": "b9a18c65931b474a453cca5b20903220975f0fc9"
-    },
-    {
-      "path": "natives-windows-x86_64/jemalloc.dll",
-      "hash": "8a6eb00b934da6c97b0dc9d2dc321843076c8987"
-    },
-    {
-      "path": "natives-windows-x86_64/jemalloc32.dll",
-      "hash": "0d3c5c4d18d9a60501bce1f586684cd2fc5c466f"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl.dll",
-      "hash": "d01410449d2402a952e9a6063699f1868196883f"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl32.dll",
-      "hash": "a7aa4fbaa375fd39c4cb8eabeef45b44d5848bcb"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_opengl.dll",
-      "hash": "8e9836dd0d1691356db654aa02533ad80e9bf52c"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_opengl32.dll",
-      "hash": "2e0fe073b23ab972af00025097efcfcb446d927f"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_stb.dll",
-      "hash": "8b047fb3f6c31946fe33157e7912ac31595cd3b8"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_stb32.dll",
-      "hash": "1c28819763f77cbb4593a95b1cbb0999f136695d"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_tinyfd.dll",
-      "hash": "ec0fd8007afba6697d5b3b8249b5be27096a0ce8"
-    },
-    {
-      "path": "natives-windows-x86_64/lwjgl_tinyfd32.dll",
-      "hash": "079540a19727772f056cd80535e9645a674190b4"
-    },
-    {
-      "path": "natives-windows-x86_64/META-INF/INDEX.LIST",
-      "hash": "304659e97a4889e314e2ef15632d1ab02c19827e"
-    },
-    {
-      "path": "natives-windows-x86_64/META-INF/MANIFEST.MF",
-      "hash": "bb30425dff1ace753caf8b4f1d50a1a37c4fbaa5"
-    },
-    {
-      "path": "natives-windows-x86_64/META-INF/versions/9/module-info.class",
-      "hash": "4fda2f05729e5b34e9f5ae9deff1d516beab238b"
-    },
-    {
-      "path": "natives-windows-x86_64/OpenAL.dll",
-      "hash": "dc8f7a5704164fe3dff3631c326bab7159a9358d"
-    },
-    {
-      "path": "natives-windows-x86_64/OpenAL32.dll",
-      "hash": "aa3fa9446b7c1264e2b463bb53946718e4f8ce82"
-    },
-    {
-      "path": "natives-windows-x86_64/SAPIWrapper_x64.dll",
-      "hash": "c4a293116e7531d950db2d5ea737e61a9912b61d"
-    },
-    {
-      "path": "natives-windows-x86_64/SAPIWrapper_x86.dll",
-      "hash": "70e85ab3f880a7c3d5f0a9aae0f65661cb8af5a6"
     },
     {
       "path": "patchouli_data.json",
